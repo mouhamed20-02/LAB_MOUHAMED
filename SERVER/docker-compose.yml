@@ -22,8 +22,7 @@ services:
       - internalnetwork
   nodeapp:
     container_name: nodeappcontainer
-    build: .
-    image: nodeapp:v1
+    image: diagne48/nodeapp:v1
     volumes:
       - $HOME/nodeapp:/code
     ports:
